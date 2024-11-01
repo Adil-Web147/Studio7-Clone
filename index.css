@@ -1,0 +1,531 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: inherit;
+}
+/* ---------- start slide code----- */
+.slide
+{
+    width: 100%;
+    height: 100vh;
+   background-image: url(slide.pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(26, 172, 172);
+}
+.slidetext h1
+{
+ padding-top: 250px;   
+ text-transform: uppercase;
+ font-size: 45px;
+ padding-bottom: 10px;
+ color: white;
+ letter-spacing: 2px;
+}
+.studio
+{
+    color:#28c1d3;
+}
+.slidetext p
+{
+    color: white;
+}
+.slidetext
+{
+    padding:0 25%;
+}
+.morebtn
+{
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    color: #28c1d3;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #28c1d3;
+    
+ 
+
+ 
+}
+.morebtn:hover
+{
+    background-color: #28c1d3;
+    color: black;
+    transition: 0.5s;
+    
+}
+/* ------------end slide code-------- */
+
+/* -------------start our services---- */
+.services
+{
+    width: 100;
+    height: 630px;
+    background-color: rgb(6, 6, 53);
+}
+.sertext {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+    color: white;
+}
+.sertext h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.serdiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.ser{
+    width: 300px;
+    height: 300px;
+    /* background-color: white; */
+}
+
+
+
+.ser1
+{
+    width: 90px;
+    height: 90px;
+    background-color: #21abc0;
+    border-radius: 50px;
+    margin-left:  105px;
+    margin-top: 20px;
+}
+
+.ser h2
+{
+font-size: 21px;
+padding-top: 50px;
+color: #21abc0;
+text-align: center;
+}
+.ser p
+{
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: white;
+}
+
+.ser1
+{
+    display: flex;
+    align-items: center;
+}
+.icon
+{
+    font-size: 40px;
+   /* padding-left: 25PX; */
+   margin-left: 23px;
+}
+/* --------end our services---------- */
+
+/* -------------start about us---- */
+.about
+{
+    width: 100%;
+    height: 650px;
+    background-color: #21abc0;
+    display: inline-block;
+    
+   
+}
+
+.abouttext h1 
+{
+padding-top: 30px;
+font-weight: normal;
+letter-spacing: 5px;
+}
+.abouttext
+{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+    color: white;
+}
+.abtpic
+{
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 40%;
+    height: 400px;
+    /* background-color: blue; */
+    margin-top: 25px;
+}
+.stdpic
+{
+    width: 100%;
+    height: 380px;
+    background-image: url(studio\ pic.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-left: 4%;
+    /* display: inline-block; */
+}
+.abtxt 
+{
+    width: 40px;
+    height: 400px;
+    float: left;
+    background-color: blue;
+     text-align: left;
+}
+.box1
+{
+    /* background-color: white; */
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    width: 50%;
+    height: 380px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+}
+.box1 h2 
+{
+    font-weight: normal;
+    color: white;
+}
+.box1 p
+{
+    font-weight:300;
+    padding-top: 15px;
+    color: white;
+}
+.box
+{
+    padding-top: 30px;
+}
+
+/* --------end about us---------- */
+
+/* -------------start protfolio---- */
+.protfolio
+{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(14, 0, 54);
+    text-align: center;
+    color: white;
+    display: flex;
+}
+.pro h1 
+{
+   margin-top: 80px;
+   text-align: center;
+   margin-left: 320px;
+   font-weight: normal;
+   letter-spacing: 5px;
+   color: white;
+}
+
+.pro p
+{
+   margin-top: 10px;
+   text-align: center;
+   margin-left: 320px;
+   display: flex;
+}
+.pic 
+{
+    width: 83%;
+    height: 300px;
+   /* background-color: chocolate; */
+   margin-top: 200px;
+   text-align: center;
+   justify-content: center;
+   margin-right: 200px;
+   position: absolute;
+   display: flex;
+   margin-left: 120px;
+   justify-content:  space-evenly;
+}
+.pic1 
+{
+    width: 83%;
+    height: 300px;
+   /* background-color: chocolate; */
+   margin-top: 520px;
+   text-align: center;
+   justify-content: center;
+   margin-right: 200px;
+   position: absolute;
+   display: flex;
+   margin-left: 120px;
+   justify-content: space-evenly;
+}
+.pics
+{
+    width:23%;
+    height: 300px;
+    background-color: white;
+    justify-content: space-between;
+    /* display: flex; */
+    
+}
+.pics1
+{
+    width:23%;
+    height: 300px;
+    background-color: white;
+    justify-content: space-between;
+    /* display: flex; */
+}
+#picture
+{
+    background-image: url(pic\ dd.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+#picture1
+{
+    background-image: url(codding.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#picture2
+{
+    background-image: url(pic\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#picture3
+{
+    background-image: url(picture\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#picture4
+{
+    background-image: url(hassan7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#picture5
+{
+    background-image: url(hassan4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#picture6
+{
+    background-image: url(hassan5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#picture7
+{
+    background-image: url(hassan6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* --------end protfolio---------- */
+
+/* --------stsrt meet team---------- */
+.team
+{
+    width: 100%;
+    height: 500px;
+    background-color: #28c1d3;
+    text-align: center;
+    color: white;
+}
+.teamtext
+{
+    width: 50%;
+    margin: 0px auto;
+}
+.teamtext h1{
+    padding-top: 60px;
+   
+}
+.teamtext p{
+    padding-top: 10px;
+}
+.teamdiv
+{
+    width: 80%;
+    height: 250px;
+    /* background-color: blue; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.teaminfo
+{
+    width: 240px;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    display: table-column;
+}
+
+.teampic
+{
+    width: 130px;
+    height: 130px;
+    background-color:white;
+    margin-top: 35px;
+    border-radius: 120px;
+}
+#teampic1
+{
+    background-image: url(team1.jpg);
+    background-size: cover;
+}
+#teampic2
+{
+    background-image: url(team2.jpg);
+    background-size: cover;
+}
+#teampic3
+{
+    background-image: url(team3.jpg);
+    background-size: cover;
+}
+#teampic4
+{
+    background-image: url(team4.jpg);
+    background-size: cover;
+}
+.teaminfo h3
+{
+    padding-top: 20px;
+    margin-right: 90px;
+}
+.teaminfo p
+{
+    padding-top: 10px;
+    margin-right: 90px;
+}
+/* --------end meet team--------- */
+
+/* ---------start contect us------- */
+.contect
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(bcpic.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.conttxt
+{
+    width: 50%;
+    margin: 0px auto;
+
+}
+.conttxt h1
+{
+    color: white;
+    padding-top: 60px;
+}
+.conttxt p{
+    padding-top: 20px;
+}
+.uname
+{
+    width: 250px;
+    height: 35px;
+    margin-top: 35px;
+    border-style: none;
+    background-color: rgb(80, 70, 58);
+    font-size: 17px;
+    margin-right: 11px;
+    color: white;
+}
+.uemail
+{
+    width: 250px;
+    height: 35px;
+    margin-top: 35px;
+    border-style: none;
+    background-color: rgb(80, 70, 58);
+    font-size: 17px;
+    margin-right: 11px; 
+    color: white;
+}
+.utext
+{
+    width: 520px;
+    height: 100px;
+    margin-top: 35px;
+    border-style: none;
+    background-color: rgb(80, 70, 58);
+    font-size: 17px;
+    font-family: arial ;
+    color: white;
+}
+.msbtn
+{ 
+    width: 150px;
+    height: 42px;
+    margin-top: 35px;
+  background: transparent;
+  border-style: none;
+   border: 2px solid #28c1d3;
+   color: white;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+.msbtn:hover
+{
+    background-color: #28c1d3;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sicon i
+{
+  padding: 1cm;
+ font-size: 25px;
+}
+.sicon {
+    margin-top: 90px;
+}
+
+
+
+/* ---------End contect us------- */
+
+
+.foot
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.foot1 p
+{
+   
+   margin-left: 480px;
+   margin-top: 20px;
+
+}
+
+
+
